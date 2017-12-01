@@ -1,8 +1,22 @@
 page-welcome {
 	#welcome{
 	background-color: black;
-	}
+	
 	h1 {
 		color: white;
+		font-size: 40px;
+		
+		}
+
+	p {
+		color: white;
+		margin-top: 10%;
+	}
+
+	.buttons {
+		margin-top: 10%;
+	}
+
+
 	}
 }

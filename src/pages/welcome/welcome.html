@@ -8,10 +8,14 @@
 
 <ion-content padding id="welcome">
 
-	<h1>Welcome</h1>
+	<h1>Welcome to my Practice App</h1>
 
-	<button ion-button block>Signup</button>
-	<button ion-button block>Login</button>
+	<p>Forgive me, I'm just practicing.</p>
+
+	<div class="buttons">
+		<button ion-button block (click)="signup()">Signup</button>
+		<button ion-button block (click)="login()">Login</button>
+	   </div>
 
 
 </ion-content>
