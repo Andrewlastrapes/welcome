@@ -28,11 +28,11 @@ export class WelcomePage {
 
 
  signup() {
- 	this.navCtrl.push(LoginPage)
+ 	this.navCtrl.push(SignupPage)
  }
 
  login() {
- 	this.navCtrl.push(SignupPage)
+ 	this.navCtrl.push(LoginPage)
  }
 
 
